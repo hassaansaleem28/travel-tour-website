@@ -4,11 +4,11 @@ function Hero({
   styles,
   imageUrl,
   heading,
+  span,
   text,
   route,
   btnStyle,
   btnName,
-  span,
   imgStyle,
   textStyle,
   headingStyle,
@@ -20,7 +20,7 @@ function Hero({
         src={imageUrl}
         className={imgStyle}
       />
-      <div className="absolute lg:top-60 top-44 left-7 md:top-54 md:left-32 lg:left-40">
+      <div className="absolute lg:top-60 top-50 left-5 md:top-65 md:left-32 lg:left-40">
         <h1 className={headingStyle}>
           {heading.split(" ").slice(0, 2).join(" ")}
           <br className="block sm:hidden" />
