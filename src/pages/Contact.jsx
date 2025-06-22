@@ -13,7 +13,7 @@ function Contact() {
         imageUrl={img}
         imgStyle="w-[100%] h-[70vh] object-cover filter contrast-95 brightness-95"
         heading="Contact"
-        headingStyle="text-5xl lg:ml-89 ml-46 top-2 md:top-0 absolute md:ml-65 font-extrabold text-stone-100"
+        headingStyle="text-5xl font-extrabold text-stone-100"
       />
       <ContactForm
         textarea={

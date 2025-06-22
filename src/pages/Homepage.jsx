@@ -17,15 +17,15 @@ function Homepage() {
         <Hero
           styles="w-[100%] h-[100%] relative"
           text="Choose  your favourite destination."
-          textStyle="lg:text-3xl lg:ml-25 md:ml-27 lg:text-center mb-10 text-2xl md:text-2xl md:tracking-wide lg:tracking-wider text-center absolute left-11 lg:absolute lg:left-25 text-stone-100 font-[500] lg:mb-8 md:mb-7 mb-5 md:mt-3 lg:mt-4"
+          textStyle="lg:text-3xl lg:text-center mb-10 text-2xl md:text-2xl md:tracking-wide lg:tracking-wider text-center text-stone-100 font-[500] lg:mb-8 md:mb-7 mb-5 md:mt-3 lg:mt-4"
           imageUrl={img}
           span={<span className="block sm:inline"> Your Story</span>}
           // imageUrl="https://images.pexels.com/photos/13574651/pexels-photo-13574651.jpeg"
           imgStyle="lg:h-[100%] md:h-[100%] md:w-[100%] w-[100vw] h-[100vh] lg:w-[100%] object-cover "
           heading={`Your Journey Your Story`}
           route="/"
-          headingStyle="lg:text-7xl md:ml-3 text-[3rem] text-center ml-7 lg:ml-8 mb-3 md:text-6xl font-extrabold text-stone-100"
-          btnStyle="bg-stone-100 px-7 tracking-[2px] text-xl font-[500] hover:text-slate-100 absolute top-60 lg:absolute lg:top-45 md:top-35 left-2 hover:bg-teal-500 transition-all duration-0.3 ease-in-out rounded-md py-3 ml-23 md:ml-65 lg:ml-90"
+          headingStyle="lg:text-7xl text-center text-[3rem] mb-3 md:text-6xl font-extrabold text-stone-100"
+          btnStyle="bg-stone-100 tracking-[2px] text-xl font-[500] hover:text-slate-100   hover:bg-teal-500 transition-all duration-0.3 ease-in-out rounded-md py-3 px-5"
           btnName="Travel Plan"
         />
       </section>

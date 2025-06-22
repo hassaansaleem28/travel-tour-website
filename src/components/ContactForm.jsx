@@ -1,8 +1,8 @@
 function ContactForm({ placeholder, heading, btnName, type, textarea }) {
   return (
-    <div className="lg:mx-[6rem] mx-[4rem] my-[3.5rem] lg:my-[4rem] text-stone-900">
+    <div className="lg:mx-[6rem] mx-[3rem] my-[3.5rem] lg:my-[4rem] text-stone-900">
       <h1 className="text-4xl font-[700] text-center mb-5">{heading}</h1>
-      <form className="pt-[3rem] flex flex-col w-[70%] lg:w-[50%] mx-auto my-auto">
+      <form className="pt-[3rem] flex flex-col w-[100%] md:w-[65%] lg:w-[50%] mx-auto my-auto">
         <input
           placeholder="Name"
           required

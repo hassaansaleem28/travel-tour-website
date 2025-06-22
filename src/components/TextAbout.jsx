@@ -1,6 +1,6 @@
 function TextAbout() {
   return (
-    <div className="lg:px-[4.5rem] px-[3.5rem] py-[1.2rem] lg:py-[2rem] flex flex-col gap-5 my-15">
+    <div className="lg:px-[4.5rem] md:px-[3rem] px-[1.8rem] py-[1.2rem] lg:py-[2rem] flex flex-col gap-5 my-15">
       <h1 className="text-[3rem] font-[600]">Our History</h1>
       <p className="text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, ea

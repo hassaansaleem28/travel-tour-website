@@ -13,7 +13,7 @@ function Signup() {
         imageUrl={img}
         imgStyle="w-[100%] h-[70vh] filter contrast-80 brightness-90"
         heading="Sign up"
-        headingStyle="text-5xl ml-46 lg:mt-0 md:mt-0 mt-3 lg:ml-92.5 md:ml-68 font-extrabold text-stone-100"
+        headingStyle="text-5xl font-extrabold text-stone-100"
       />
       <ContactForm
         placeholder="Strong Password"

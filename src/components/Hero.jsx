@@ -20,7 +20,7 @@ function Hero({
         src={imageUrl}
         className={imgStyle}
       />
-      <div className="absolute lg:top-60 top-50 left-5 md:top-65 md:left-32 lg:left-40">
+      <div className="absolute px-2 flex flex-col items-center w-full left-1/2 transform -translate-x-1/2  top-50">
         <h1 className={headingStyle}>
           {heading.split(" ").slice(0, 2).join(" ")}
           <br className="block sm:hidden" />
