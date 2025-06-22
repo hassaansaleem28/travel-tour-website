@@ -10,7 +10,7 @@ function Navbar() {
   const [icon, setIcon] = useState(false);
 
   return (
-    <nav className="flex p-2 lg:gap-50 shadow-lg text-2xl bg-stone-100 rounded-2xl top-4 left-6 lg:w-[76rem] md:w-[60rem] md:gap-20 z-9999 fixed gap-[11rem]">
+    <nav className="flex p-2 lg:gap-50 shadow-lg text-2xl bg-stone-100 rounded-2xl top-4 md:left-6 lg:left-6 left-4 lg:w-[76rem] md:w-[60rem] md:gap-20 z-9999 fixed gap-[11rem]">
       <Logo />
       <div className="md:hidden">
         <button
