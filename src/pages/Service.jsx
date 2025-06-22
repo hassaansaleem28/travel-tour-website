@@ -13,7 +13,7 @@ function Service() {
         imageUrl={img}
         imgStyle="w-[100%] h-[70vh] filter contrast-80 brightness-90"
         heading="Service"
-        headingStyle="text-5xl ml-94 font-extrabold text-stone-100"
+        headingStyle="text-5xl lg:ml-94 md:ml-65 ml-48 md:top-0 top-5 absolute font-extrabold text-stone-100"
       />
       <section className="mb-30 mt-20">
         <TripSec

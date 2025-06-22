@@ -8,6 +8,7 @@ function Hero({
   route,
   btnStyle,
   btnName,
+  span,
   imgStyle,
   textStyle,
   headingStyle,
@@ -19,8 +20,12 @@ function Hero({
         src={imageUrl}
         className={imgStyle}
       />
-      <div className="absolute top-60 left-40">
-        <h1 className={headingStyle}>{heading}</h1>
+      <div className="absolute lg:top-60 top-44 left-7 md:top-54 md:left-32 lg:left-40">
+        <h1 className={headingStyle}>
+          {heading.split(" ").slice(0, 2).join(" ")}
+          <br className="block sm:hidden" />
+          {span}
+        </h1>
         <p className={textStyle}>{text}</p>
         <NavLink to={route} className={btnStyle}>
           {btnName}

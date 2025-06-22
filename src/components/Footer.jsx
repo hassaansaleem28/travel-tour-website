@@ -3,13 +3,15 @@ import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="py-[4rem] px-[6rem] bg-stone-900 text-slate-50">
+    <div className="lg:py-[4rem] px-[3rem] py-[2.7rem] lg:px-[6rem] bg-stone-900 text-slate-50">
       <div className="flex items-center text-start justify-between flex-wrap">
         <div>
-          <NavLink to="/" className="text-3xl font-[700]">
+          <NavLink to="/" className="lg:text-3xl text-[1.7rem] font-[700]">
             Trippy
           </NavLink>
-          <p className="text-xl mt-3">Choose your favourite destination.</p>
+          <p className="lg:text-xl text-sm mt-2 lg:mt-3">
+            Choose your favourite destination.
+          </p>
         </div>
         <div className="flex gap-2.5 ">
           <a href="/">
@@ -35,8 +37,8 @@ function Footer() {
         </div>
       </div>
 
-      <div className="pt-[2rem] text-start flex justify-between flex-wrap">
-        <div className="flex flex-col">
+      <div className="pt-[2rem] justify-center items-center text-start grid grid-cols-2 gap-y-6 lg:flex md:flex md:justify-between md:mt-8 lg:justify-between flex-wrap">
+        <div className="lg:flex flex flex-col lg:flex-col lg:px-0 md:px-0 px-7">
           <h4 className="text-lg font-[700]">Projects</h4>
           <a href="/" className="mt-3">
             Changelog
@@ -45,7 +47,7 @@ function Footer() {
           <a href="/">License</a>
           <a href="/">All Versions</a>
         </div>
-        <div className="flex flex-col">
+        <div className="lg:flex flex flex-col lg:flex-col md:justify-self-end  justify-self-center">
           <h4 className="text-lg font-[700]">Community</h4>
           <a href="/" className="mt-3">
             Github
@@ -54,7 +56,7 @@ function Footer() {
           <a href="/">Project</a>
           <a href="/">Twitter</a>
         </div>
-        <div className="flex flex-col">
+        <div className="lg:flex flex flex-col lg:flex-col lg:px-0 md:px-0 px-7">
           <h4 className="text-lg font-[700]">Help</h4>
           <a href="/" className="mt-3">
             Support
@@ -63,7 +65,7 @@ function Footer() {
           <a href="/">Contact Us</a>
           <a href="/">All Versions</a>
         </div>
-        <div className="flex flex-col">
+        <div className="lg:flex flex flex-col ml-5 lg:flex-col md:justify-self-end justify-self-center">
           <h4 className="text-lg font-[700]">Others</h4>
           <a href="/" className="mt-3">
             Terms of Service

@@ -5,10 +5,12 @@ import Trip3 from "../assets/9.jpg";
 
 function TripSec({ heading, text }) {
   return (
-    <div className="text-center">
-      <h1 className="text-4xl font-[800] mb-2">{heading}</h1>
-      <p className="text-xl">{text}</p>
-      <div className="flex justify-between mx-17 my-14">
+    <div>
+      <h1 className="md:text-4xl text-center text-3xl font-[800] mb-2">
+        {heading}
+      </h1>
+      <p className="md:text-xl text-center text-[1rem]">{text}</p>
+      <div className="md:flex flex flex-col lg:flex-row gap-5 mt-8 ml-13 md:justify-between md:mx-12 md:my-10 lg:mx-17 lg:my-14">
         <TripData image={Trip1} heading="Trip in Turkey" />
         <TripData image={Trip2} heading="Trip in Malaysia" />
         <TripData image={Trip3} heading="Trip in Pakistan" />

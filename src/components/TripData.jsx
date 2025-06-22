@@ -1,6 +1,6 @@
 function TripData({ image, heading }) {
   return (
-    <div className="text-start shadow-2xl rounded-[8px] cursor-pointer px-[0.8rem] py-[1rem] w-[32%] bg-slate-200">
+    <div className="text-start shadow-2xl rounded-[8px] cursor-pointer px-[0.8rem] py-[1rem] w-[90%] md:px-5 md:py-5 md:w-[90%] md:mx-auto bg-slate-200">
       <div className="overflow-hidden rounded-[8px] h-[200px]">
         <img
           src={image}
